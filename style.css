@@ -1,16 +1,78 @@
-/* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 
+body
+{
+	background-image : url("/lab-cricpro-scoreboard/assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	padding:25px;
+	font-family: 'Heebo', sans-serif;
+	
 
-/* change the font family and spacing as per your project font */
+	
+
+}
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+table{
+	
+	border: none;
+	height: 500px ;
+	width: 1080px;
+	border-collapse: collapse;
+	background: whitesmoke;
+	
+}
+th{
+   background-color: orangered;
+   font-size: 65px bold;
+   text-align: left;
+   
+}
+.pic{
+	text-decoration: none;
+}
+#event{
+	font-size:3.5em ;
+	font-weight:bolder;
+	color:black;
+	padding-top: 55px;
+	font-stretch: extra-expanded ;
+	margin-bottom: -16px;
+	text-shadow: 2px 2px 4px #000000;
+}
+#teams
+   {
+    color:rgb(102, 98, 98);
+	font-size:x-large;
+	margin-top: -16px;
+
+	
+   }    
+.bowler{
+	color:rgb(148, 147, 147);
+	font-weight:normal;
+}
+td{
+	border-bottom: 2px solid white;
+}
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
+	top: 850px;
 	margin-left: 80px;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: Nunito Sans;
     font-style: normal;
-    
+	
+    margin-top: 25px;
 }
